@@ -423,6 +423,8 @@ export function ProjectBlocks() {
         )).then(() => undefined)
 
     useEffect(() => {
+        if (mobileLayout === null) return
+
         if (reducedMotion) {
             setLayoutIndex(DEFAULT_LAYOUT_INDEX)
             return
@@ -435,10 +437,10 @@ export function ProjectBlocks() {
         }, FRAME_DURATION_MS)
 
         return () => window.clearInterval(intervalId)
-    }, [ closingProjectId, interactionPaused, openingProject, reducedMotion ])
+    }, [ closingProjectId, interactionPaused, mobileLayout, openingProject, reducedMotion ])
 
     useLayoutEffect(() => {
-        if (entranceHasRunRef.current || openingProject) return
+        if (mobileLayout === null || entranceHasRunRef.current || openingProject) return
         entranceHasRunRef.current = true
         if (reducedMotion) return
 
@@ -447,7 +449,7 @@ export function ProjectBlocks() {
         void entranceAnimationsFinishedRef.current.then(() =>
             animations.forEach((animation) => animation.cancel())
         )
-    }, [ closingProjectId, openingProject, reducedMotion ])
+    }, [ closingProjectId, mobileLayout, openingProject, reducedMotion ])
 
     useLayoutEffect(() => {
         if (!openingProject || reducedMotion) return
@@ -676,7 +678,8 @@ export function ProjectBlocks() {
         <nav
             aria-label="Selected projects"
             className="project-blocks"
-            data-mobile={mobileLayout}
+            data-layout-ready={mobileLayout !== null}
+            data-mobile={mobileLayout === true}
             data-transitioning={openingProject !== null || closingProjectId !== null}
             inert={openingProject !== null || closingProjectId !== null}
             onBlur={(event) => {
@@ -704,7 +707,9 @@ export function ProjectBlocks() {
                             ref={(element) => {
                                 blockRefs.current[project.id] = element
                             }}
-                            style={layout[project.id][mobileLayout ? 'mobile' : 'desktop'] satisfies CSSProperties}
+                            style={mobileLayout === null
+                                ? undefined
+                                : layout[project.id][mobileLayout ? 'mobile' : 'desktop'] satisfies CSSProperties}
                             to={project.path}
                         >
                             <span className="sr-only">{project.label}</span>
