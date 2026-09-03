@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Throughput comparison of two reimplemented sequence alignment accelerators</title>
+  <desc id="desc">A logarithmic dot plot compares throughputs of 0.5, 1, 1.5, and 511.75 cell updates per cycle.</desc>
+  <rect width="1400" height="900" fill="#9e0059"/>
+  <text x="90" y="100" fill="#fff" font-family="Arial, sans-serif" font-size="42" font-weight="700">Reimplementation Results</text>
+  <text x="90" y="157" fill="#fae1df" font-family="Arial, sans-serif" font-size="27">Throughput in cell updates per cycle · logarithmic scale</text>
+  <g stroke="#fae1df" stroke-width="3" opacity="0.7">
+    <path d="M420 230V730"/><path d="M560 230V730"/><path d="M840 230V730"/><path d="M1120 230V730"/><path d="M1320 230V730"/>
+  </g>
+  <g fill="#fae1df" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">
+    <text x="420" y="780">0.5</text><text x="560" y="780">1</text><text x="840" y="780">10</text><text x="1120" y="780">100</text><text x="1320" y="780">511.75</text>
+  </g>
+  <g fill="#fff" font-family="Arial, sans-serif" font-size="25" text-anchor="end">
+    <text x="380" y="300">El-Wafa · sequential</text>
+    <text x="380" y="420">El-Wafa · 2 parallel</text>
+    <text x="380" y="540">El-Wafa · 3 parallel</text>
+    <text x="380" y="660">Di Tucci · shift register</text>
+  </g>
+  <g>
+    <circle cx="420" cy="291" r="23" fill="#ffbd00"/><circle cx="560" cy="411" r="23" fill="#ff5400"/><circle cx="609" cy="531" r="23" fill="#ff0054"/><circle cx="1320" cy="651" r="30" fill="#7300ff"/>
+  </g>
+  <g fill="#fff" font-family="Arial, sans-serif" font-size="24" font-weight="700">
+    <text x="460" y="300">0.5</text><text x="600" y="420">1.0</text><text x="649" y="540">1.5</text><text x="1284" y="610" text-anchor="end">511.75</text>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+{
+  "name": "Lin Donglai Portfolio",
+  "short_name": "Lin Donglai",
+  "description": "Portfolio of Lin Donglai, a developer and accessibility advocate building inclusive technology through student platforms and research projects.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/favicon/favicon-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/favicon-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/favicon-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}

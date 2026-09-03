@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Sequence alignment diagram</title>
+  <desc id="desc">Two DNA sequences aligned to show matching bases, a mismatch, and a gap.</desc>
+  <rect width="1200" height="800" fill="#9e0059"/>
+  <text x="72" y="92" fill="#fff" font-family="Arial, sans-serif" font-size="34" font-weight="700">Sequence alignment</text>
+  <g font-family="Arial, sans-serif" font-size="64" font-weight="700" text-anchor="middle">
+    <g fill="#ffbd00">
+      <circle cx="170" cy="300" r="58"/><circle cx="350" cy="300" r="58"/><circle cx="530" cy="300" r="58"/><circle cx="710" cy="300" r="58"/><circle cx="890" cy="300" r="58"/>
+    </g>
+    <g fill="#390099">
+      <circle cx="170" cy="540" r="58"/><circle cx="350" cy="540" r="58"/><circle cx="530" cy="540" r="58"/><circle cx="710" cy="540" r="58"/><circle cx="890" cy="540" r="58"/>
+    </g>
+    <g fill="#16001f">
+      <text x="170" y="323">A</text><text x="350" y="323">C</text><text x="530" y="323">G</text><text x="710" y="323">T</text><text x="890" y="323">A</text>
+    </g>
+    <g fill="#fff">
+      <text x="170" y="563">A</text><text x="350" y="563">C</text><text x="530" y="563">–</text><text x="710" y="563">G</text><text x="890" y="563">A</text>
+    </g>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-width="12">
+    <path d="M170 370V470" stroke="#fff"/>
+    <path d="M350 370V470" stroke="#fff"/>
+    <path d="M530 370V470" stroke="#fae1df" stroke-dasharray="15 18"/>
+    <path d="M710 370V470" stroke="#ff5400"/>
+    <path d="M890 370V470" stroke="#fff"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="23" font-weight="700">
+    <circle cx="105" cy="704" r="11" fill="#fff"/><text x="132" y="712" fill="#fff">Match</text>
+    <circle cx="322" cy="704" r="11" fill="#ff5400"/><text x="349" y="712" fill="#fff">Mismatch</text>
+    <circle cx="590" cy="704" r="11" fill="#fae1df"/><text x="617" y="712" fill="#fff">Gap</text>
+  </g>
+</svg>

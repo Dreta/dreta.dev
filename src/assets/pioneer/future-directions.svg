@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Future research directions</title>
+  <desc id="desc">The paper proposes richer scoring for Bitap accelerators, general-purpose systems for different read lengths, and shared benchmarks.</desc>
+  <rect width="1200" height="800" fill="#9e0059"/>
+  <text x="72" y="92" fill="#fff" font-family="Arial, sans-serif" font-size="34" font-weight="700">Future directions</text>
+  <g font-family="Arial, sans-serif">
+    <circle cx="230" cy="375" r="150" fill="#390099"/>
+    <circle cx="600" cy="375" r="150" fill="#7300ff"/>
+    <circle cx="970" cy="375" r="150" fill="#ff5400"/>
+    <g fill="#fff" font-size="29" font-weight="700" text-anchor="middle">
+      <text x="230" y="350"><tspan x="230">Biologically</tspan><tspan x="230" dy="38">meaningful</tspan><tspan x="230" dy="38">scoring</tspan></text>
+      <text x="600" y="350"><tspan x="600">Short and</tspan><tspan x="600" dy="38">long reads</tspan><tspan x="600" dy="38">together</tspan></text>
+      <text x="970" y="350" fill="#16001f"><tspan x="970">Standardized</tspan><tspan x="970" dy="38">datasets and</tspan><tspan x="970" dy="38">metrics</tspan></text>
+    </g>
+  </g>
+  <path d="M380 375H450M750 375H820" stroke="#fae1df" stroke-width="10" stroke-linecap="round" stroke-dasharray="12 20"/>
+</svg>

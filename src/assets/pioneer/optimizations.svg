@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Seven recurring hardware optimizations</title>
+  <desc id="desc">The review identified seven optimization patterns used across sequence alignment accelerators.</desc>
+  <rect width="1200" height="800" fill="#9e0059"/>
+  <text x="72" y="92" fill="#fff" font-family="Arial, sans-serif" font-size="34" font-weight="700">7 recurring optimizations</text>
+  <g font-family="Arial, sans-serif" font-weight="700">
+    <g transform="translate(72 178)"><circle cx="38" cy="38" r="38" fill="#ffbd00"/><text x="38" y="49" fill="#16001f" font-size="31" text-anchor="middle">1</text><text x="96" y="48" fill="#fff" font-size="29">Bit-level encoding</text></g>
+    <g transform="translate(72 300)"><circle cx="38" cy="38" r="38" fill="#ff5400"/><text x="38" y="49" fill="#16001f" font-size="31" text-anchor="middle">2</text><text x="96" y="48" fill="#fff" font-size="29">Anti-diagonal parallelism</text></g>
+    <g transform="translate(72 422)"><circle cx="38" cy="38" r="38" fill="#ff0054"/><text x="38" y="49" fill="#fff" font-size="31" text-anchor="middle">3</text><text x="96" y="48" fill="#fff" font-size="29">Dynamic banding</text></g>
+    <g transform="translate(72 544)"><circle cx="38" cy="38" r="38" fill="#7300ff"/><text x="38" y="49" fill="#fff" font-size="31" text-anchor="middle">4</text><text x="96" y="48" fill="#fff" font-size="29">Windowing and tiling</text></g>
+    <g transform="translate(654 178)"><circle cx="38" cy="38" r="38" fill="#390099"/><text x="38" y="49" fill="#fff" font-size="31" text-anchor="middle">5</text><text x="96" y="31" fill="#fff" font-size="29"><tspan x="96">Lookahead and</tspan><tspan x="96" dy="34">pipelining</tspan></text></g>
+    <g transform="translate(654 344)"><circle cx="38" cy="38" r="38" fill="#fae1df"/><text x="38" y="49" fill="#16001f" font-size="31" text-anchor="middle">6</text><text x="96" y="31" fill="#fff" font-size="29"><tspan x="96">Traceback</tspan><tspan x="96" dy="34">compression</tspan></text></g>
+    <g transform="translate(654 510)"><circle cx="38" cy="38" r="38" fill="#ffbd00"/><text x="38" y="49" fill="#16001f" font-size="31" text-anchor="middle">7</text><text x="96" y="31" fill="#fff" font-size="29"><tspan x="96">Seed filtering and</tspan><tspan x="96" dy="34">early termination</tspan></text></g>
+  </g>
+</svg>
