@@ -35,10 +35,6 @@ export default function HomePage() {
                            className="home-header__button home-header__button--social">
                             <FontAwesomeIcon icon={faInstagram}/>
                         </a>
-                        <a href="https://blog.dreta.dev/"
-                           className="home-header__button home-header__button--pill">
-                            Blog
-                        </a>
                         <a href="/assets/LinDonglai_Resume.pdf"
                            className="home-header__button home-header__button--pill">
                             Resume

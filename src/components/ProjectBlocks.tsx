@@ -461,7 +461,7 @@ export function ProjectBlocks() {
 
     useLayoutEffect(() => {
         const overlay = overlayRef.current
-        if (!overlay) return
+        if (!overlay || mobileLayout === null) return
 
         if (openingProject) {
             if (reducedMotion) {
@@ -573,7 +573,7 @@ export function ProjectBlocks() {
             })
             .catch(() => undefined)
         return () => morphAnimation.cancel()
-    }, [ closingProjectId, layoutIndex, navigate, openingProject, reducedMotion ])
+    }, [ closingProjectId, layoutIndex, mobileLayout, navigate, openingProject, reducedMotion ])
 
     const layout = LAYOUTS[layoutIndex]
 
