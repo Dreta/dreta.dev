@@ -199,7 +199,7 @@ export const PROJECTS = [
         path: '/projects/orinav',
         seo: {
             title: 'Orinav: Accessible Navigation App',
-            description: 'Explore Orinav, Lin Donglai\'s navigation app helping 700+ people with visual impairments across five countries travel more independently.',
+            description: 'Explore Orinav, Lin\'s navigation app helping 700+ people with visual impairments across 5 countries travel more independently.',
             image: orinavCover
         },
         sections: [
@@ -368,7 +368,7 @@ export const PROJECTS = [
         path: '/projects/a11ylab',
         seo: {
             title: 'A11yLab: Student Accessibility Initiative',
-            description: 'See how Lin Donglai founded A11yLab, a 23-member student initiative whose accessibility programs have reached more than 900 community members.',
+            description: 'See how Lin founded A11yLab, a 23-member student initiative whose accessibility programs have reached more than 900 community members.',
             image: a11yLabCover
         },
         sections: [
@@ -508,7 +508,7 @@ export const PROJECTS = [
         path: '/projects/webartistry',
         seo: {
             title: 'WebArtistry: Programming and Technology Club',
-            description: 'Explore WebArtistry, Lin Donglai\'s 33-member student technology club building school platforms and expanding computer science education.',
+            description: 'Explore WebArtistry, Lin\'s 33-member student technology club building school platforms and expanding computer science education.',
             image: webArtistryCover
         },
         sections: [
@@ -806,7 +806,7 @@ export const PROJECTS = [
         path: '/projects/helium',
         seo: {
             title: 'Beijing Academy Website Modernization',
-            description: 'Explore Lin Donglai\'s Beijing Academy website modernization, featuring a 34-component editor and faster loading, with estimated savings of CN¥100,000.',
+            description: 'Explore Lin\'s Beijing Academy website modernization, featuring a 34-component editor and faster loading, with estimated savings of CN¥100,000.',
             image: heliumCover
         },
         sections: [
@@ -1061,7 +1061,7 @@ export const PROJECTS = [
         path: '/projects/pioneer',
         seo: {
             title: 'Hardware Accelerators for Sequence Alignment',
-            description: 'Read Lin Donglai\'s Pioneer research on hardware accelerators for genomic sequence alignment, including two PyRTL reimplementations and benchmarks.',
+            description: 'Read Lin\'s research project on hardware accelerators for genomic sequence alignment, including two PyRTL reimplementations and benchmarks.',
             image: pioneerCover
         },
         sections: [
