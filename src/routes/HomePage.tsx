@@ -12,8 +12,8 @@ export default function HomePage() {
     return (
         <div className="home-page" data-mobile={mobileLayout}>
             <Seo
-                title="Lin Donglai — Developer and Accessibility Advocate"
-                description="Portfolio of Lin Donglai, a developer and accessibility advocate building inclusive technology through student platforms and research projects."
+                title="Lin Donglai"
+                description="I am a developer and advocate working on technology and initiatives to make life more accessible for everyone."
                 ogType="profile"
                 path={paths.home}
                 themeColor="#ffffff"
