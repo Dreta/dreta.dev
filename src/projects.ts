@@ -198,7 +198,7 @@ export const PROJECTS = [
         label: 'Orinav: navigation app for people with visual impairments',
         path: '/projects/orinav',
         seo: {
-            title: 'Orinav Accessible Navigation App',
+            title: 'Orinav: Accessible Navigation App',
             description: 'Explore Orinav, Lin Donglai\'s navigation app helping 700+ people with visual impairments across five countries travel more independently.',
             image: orinavCover
         },
@@ -367,7 +367,7 @@ export const PROJECTS = [
         label: 'A11yLab: The Beijing Academy Student Accessibility Initiative',
         path: '/projects/a11ylab',
         seo: {
-            title: 'A11yLab Student Accessibility Initiative',
+            title: 'A11yLab: Student Accessibility Initiative',
             description: 'See how Lin Donglai founded A11yLab, a 23-member student initiative whose accessibility programs have reached more than 900 community members.',
             image: a11yLabCover
         },
@@ -507,7 +507,7 @@ export const PROJECTS = [
         label: 'WebArtistry: the Beijing Academy programming and technology club',
         path: '/projects/webartistry',
         seo: {
-            title: 'WebArtistry Programming and Technology Club',
+            title: 'WebArtistry: Programming and Technology Club',
             description: 'Explore WebArtistry, Lin Donglai\'s 33-member student technology club building school platforms and expanding computer science education.',
             image: webArtistryCover
         },
@@ -701,7 +701,7 @@ export const PROJECTS = [
         label: 'Project Whale: an online ordering system for the student-run The Whale Café',
         path: '/projects/whale',
         seo: {
-            title: 'Project Whale Café Ordering Platform',
+            title: 'Project Whale: Café Ordering Platform',
             description: 'See how Project Whale\'s café ordering platform serves 40+ daily users while raising payment completion to 98% and monthly revenue by over 30%.',
             image: whaleCover
         },
@@ -935,7 +935,7 @@ export const PROJECTS = [
         label: 'To Play or Not To Play: Modeling Future Olympic Games',
         path: '/projects/himcm',
         seo: {
-            title: 'HiMCM Olympic Sports Selection Model',
+            title: 'HiMCM: Olympic Sports Selection Model',
             description: 'Explore the HiMCM Finalist PARIS model, which evaluates 41 sports across 12 factors to forecast additions to the 2032 Brisbane Olympics.',
             image: himcmCover
         },
