@@ -8,6 +8,14 @@ import { useMobileLayout } from '../mobile'
 
 export default function HomePage() {
     const mobileLayout = useMobileLayout()
+    const openEmailClient = () => {
+        const decode = (characters: readonly number[]) =>
+            String.fromCharCode(...characters)
+        const localPart = decode([ 109, 97, 105, 108 ])
+        const domain = decode([ 100, 114, 101, 116, 97, 46, 100, 101, 118 ])
+
+        window.location.assign(`mailto:${localPart}@${domain}`)
+    }
 
     return (
         <div className="home-page" data-mobile={mobileLayout}>
@@ -39,10 +47,13 @@ export default function HomePage() {
                            className="home-header__button home-header__button--pill">
                             Resume
                         </a>
-                        <a href="mailto:mail@dreta.dev"
-                           className="home-header__button home-header__button--pill">
+                        <button
+                            aria-label="Contact Lin Donglai by email"
+                            className="home-header__button home-header__button--pill"
+                            onClick={openEmailClient}
+                            type="button">
                             Contact
-                        </a>
+                        </button>
                         <Link
                             className="home-header__button home-header__button--pill sr-only"
                             to={paths.activitiesVerification}>
