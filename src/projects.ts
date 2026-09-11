@@ -581,8 +581,8 @@ export const PROJECTS = [
                         value: '320+'
                     },
                     {
-                        description: 'The economic value of WebArtistry products is estimated to be ~CN¥110,000.',
-                        value: '~ ¥110,000'
+                        description: 'The economic value of WebArtistry products is estimated to be ~CN¥60,000.',
+                        value: '~ ¥60,000'
                     },
                     {
                         description: 'WebArtistry\'s products serve 50+ students every single day, helping them navigate the BAID community with ease.',
@@ -806,7 +806,7 @@ export const PROJECTS = [
         path: '/projects/helium',
         seo: {
             title: 'Beijing Academy Website Modernization',
-            description: 'Explore Lin\'s Beijing Academy website modernization, featuring a 34-component editor and faster loading, with estimated savings of CN¥100,000.',
+            description: 'Explore Lin\'s Beijing Academy website modernization, featuring a 34-component editor and faster loading, with estimated savings of CN¥50,000.',
             image: heliumCover
         },
         sections: [
@@ -819,7 +819,7 @@ export const PROJECTS = [
             {
                 type: 'text-image',
                 id: 'h2',
-                body: [ 'The new Beijing Academy website delivers a faster, more modern workflow with Feishu and Seiue integration and 40% shorter loading times. It\'s estimated to save ¥100,000 over third-party solutions.' ],
+                body: [ 'The new Beijing Academy website delivers a faster, more modern workflow with Feishu and Seiue integration and 40% shorter loading times. It\'s estimated to save ¥50,000 over third-party solutions.' ],
                 imagePosition: 'right',
                 image: {
                     kind: 'image',
@@ -913,8 +913,8 @@ export const PROJECTS = [
                         value: '78s'
                     },
                     {
-                        description: 'Our in-house solution saves the school approximately CN¥100,000 compared to third-party solutions.',
-                        value: '¥100,000'
+                        description: 'Our in-house solution saves the school approximately CN¥50,000 compared to third-party solutions.',
+                        value: '¥50,000'
                     }
                 ]
             },
